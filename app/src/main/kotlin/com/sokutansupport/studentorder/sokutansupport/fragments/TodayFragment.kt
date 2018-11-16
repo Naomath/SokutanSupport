@@ -30,6 +30,14 @@ class TodayFragment : Fragment() {
     private var param2: String? = null
     private var listener: OnFragmentInteractionListener? = null
 
+
+    companion object {
+
+        @JvmStatic
+        //上の奴は.javaのファイルからもこのメソッドにアクセスできるようにしている
+        fun newInstance() = TodayFragment()
+    }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         arguments?.let {
@@ -79,23 +87,4 @@ class TodayFragment : Fragment() {
         fun onFragmentInteraction(uri: Uri)
     }
 
-    companion object {
-        /**
-         * Use this factory method to create a new instance of
-         * this fragment using the provided parameters.
-         *
-         * @param param1 Parameter 1.
-         * @param param2 Parameter 2.
-         * @return A new instance of fragment TodayFragment.
-         */
-        // TODO: Rename and change types and number of parameters
-        @JvmStatic
-        fun newInstance(param1: String, param2: String) =
-                TodayFragment().apply {
-                    arguments = Bundle().apply {
-                        putString(ARG_PARAM1, param1)
-                        putString(ARG_PARAM2, param2)
-                    }
-                }
-    }
 }
