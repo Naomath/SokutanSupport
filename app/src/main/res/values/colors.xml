@@ -329,6 +329,6 @@
     <color name="blue_grey_800">#37474f</color>
     <color name="blue_grey_900">#263238</color>
 
-    <color name="clear">#ffffff</color>
+    <color name="clear">#00ffffff</color>
 
 </resources>

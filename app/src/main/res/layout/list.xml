@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@color/clear"
+    android:gravity="center|left"
+    android:text="Chapter 1"
+    android:textColor="@color/grey_black_1000"
+    android:textSize="18sp"
+    android:textStyle="bold"
+    app:fontFamily="serif">
+
+</TextView>

@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".fragments.TodayFragment"
-    tools:layout_editor_absoluteY="25dp">
+    tools:context=".fragments.TodayFragment">
 
     <TextView
         android:id="@+id/title"
@@ -25,23 +24,23 @@
     <ListView
         android:id="@+id/list"
         android:layout_width="277dp"
-        android:layout_height="300dp"
+        android:layout_height="280dp"
         android:layout_marginTop="100dp"
-        android:background="@android:color/white"
+        android:cacheColorHint="@color/clear"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/title"/>
+        app:layout_constraintTop_toBottomOf="@+id/title"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
         android:id="@+id/imageButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="450dp"
+        android:layout_marginTop="24dp"
         android:background="@drawable/round_button"
         android:src="@drawable/baseline_play_arrow_white_48dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/list" />
 
 </android.support.constraint.ConstraintLayout>
