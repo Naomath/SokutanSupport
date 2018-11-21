@@ -18,27 +18,16 @@
         android:layout_height="match_parent"
         android:src="#80bdbdbd" />
 
-
-<!--
-        <android.support.design.widget.BottomNavigationView
-            android:id="@+id/navigation"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:background="?android:attr/windowBackground"
-            app:itemBackground="@color/clear"
-            app:itemIconTint="@color/bottom_navigation"
-            app:itemTextColor="@color/bottom_navigation"
-            app:menu="@menu/navigation" />
-            -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
+
     <android.support.design.widget.TabLayout
         android:id="@+id/tabLayout"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:background="@color/cyan_800_80"/>
 
     <android.support.v4.view.ViewPager
         android:id="@+id/viewPager"

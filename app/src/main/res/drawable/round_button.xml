@@ -8,6 +8,6 @@
         android:height="80dp"/>
 
     <!-- 背景色 -->
-    <solid android:color="@color/cyan_300" />
+    <solid android:color="@color/button_blue" />
 
 </shape>

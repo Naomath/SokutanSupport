@@ -167,6 +167,7 @@
     <color name="cyan_600">#00acc1</color>
     <color name="cyan_700">#0097a7</color>
     <color name="cyan_800">#00838f</color>
+    <color name="cyan_800_80">#CC00838f</color>
     <color name="cyan_900">#006064</color>
     <color name="cyan_A100">#84ffff</color>
     <color name="cyan_A200">#18ffff</color>
@@ -330,5 +331,6 @@
     <color name="blue_grey_900">#263238</color>
 
     <color name="clear">#00ffffff</color>
+    <color name="button_blue">#4dd0e1</color>
 
 </resources>

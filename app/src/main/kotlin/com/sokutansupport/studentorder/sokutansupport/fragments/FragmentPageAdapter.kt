@@ -21,4 +21,15 @@ class FragmentPageAdapter(fm: FragmentManager) : FragmentPagerAdapter(fm) {
     override fun getCount(): Int {
         return 3
     }
+
+    override fun getPageTitle(position: Int): CharSequence? {
+
+        when (position) {
+            0 -> return "Today"
+            1 -> return "Calendar"
+            2 -> return "List"
+        }
+
+        return null
+    }
 }
