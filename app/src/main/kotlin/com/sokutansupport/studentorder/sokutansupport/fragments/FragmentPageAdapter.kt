@@ -15,6 +15,7 @@ class FragmentPageAdapter(fm: FragmentManager) : FragmentPagerAdapter(fm) {
         }
 
         return null
+
     }
 
     // ページ数
