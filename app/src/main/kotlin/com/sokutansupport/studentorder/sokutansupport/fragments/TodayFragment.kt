@@ -36,7 +36,7 @@ class TodayFragment : Fragment() {
         //このメソッドのviewはonCreateView()の返値
         //このメソッドを使う利点はsyntheticが使える
         val dummyItems = arrayOf("Android", "iOS", "Windows", "macOS", "Unix","Android", "iOS", "Windows", "macOS", "Unix")
-
+        //TODO:ここでちゃんとしたリストの取得をする:
 
         val arrayAdapter = ArrayAdapter<String>(activity, R.layout.list, dummyItems)
         list.adapter = arrayAdapter

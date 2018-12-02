@@ -4,7 +4,7 @@
     <color name="colorPrimaryDark">#1976D2</color>
     <color name="colorAccent">#FF5722</color>
     <color name="colorDrawerHeader">#CDDC39</color>
-    <color name="colorTextWhite">#FFFFFF</color>
+    <color name="colorTextWhite">#ffffff</color>
     <color name="colorPrimaryText">#212121</color>
     <color name="colorSecondaryText">#757575</color>
     <color name="colorDividerColor">#BDBDBD</color>
