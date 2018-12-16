@@ -9,6 +9,7 @@
     android:textColor="@color/grey_black_1000"
     android:textSize="18sp"
     android:textStyle="bold"
-    app:fontFamily="serif">
+    app:fontFamily="serif"
+    android:paddingLeft="20dp">
 
 </TextView>
