@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">SokutanSupport</string>
+    <string name="app_name">速単サポート</string>
     <string name="title_activity_main">MainActivity</string>
     <string name="title_today">Today</string>
     <string name="title_calendar">Calendar</string>

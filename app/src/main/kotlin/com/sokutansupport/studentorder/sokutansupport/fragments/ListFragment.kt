@@ -34,7 +34,8 @@ class ListFragment : Fragment() {
 
         val chapterList = ArrayList<String>()
         for (i in 1..50) {
-            chapterList.add("Chapter$i")
+            chapterList.add("Chapter$i 文章")
+            chapterList.add("Chapter$i 単語")
             //これで文字列結合
         }
 
@@ -45,7 +46,7 @@ class ListFragment : Fragment() {
         list.setOnItemClickListener { parent, view, position, id ->
 
             val intent = Intent(activity, SoundReproductionActivity::class.java)
-            intent.putExtra("CHAPTER_NUMBER_KEY", position + 1)
+            intent.putExtra("MEDIA_NUMBER_KEY", position + 1)
             startActivity(intent)
         }
     }

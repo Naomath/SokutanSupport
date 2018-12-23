@@ -13,7 +13,7 @@ import java.util.*
 
 
 class DatePickDialogFragment: DialogFragment(), DatePickerDialog.OnDateSetListener {
-
+/*
     override fun onCreateDialog(savedInstanceState: Bundle?): Dialog {
         val c = Calendar.getInstance()
         val year = c.get(Calendar.YEAR)
@@ -22,6 +22,7 @@ class DatePickDialogFragment: DialogFragment(), DatePickerDialog.OnDateSetListen
 
         return DatePickerDialog(activity!!,year, month, day)
     }
+    */
 
     override fun onDateSet(view: android.widget.DatePicker, year: Int,
                            monthOfYear: Int, dayOfMonth: Int) {
