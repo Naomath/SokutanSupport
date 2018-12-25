@@ -10,6 +10,7 @@ import android.view.ViewGroup
 import android.widget.ArrayAdapter
 import com.sokutansupport.studentorder.sokutansupport.R
 import com.sokutansupport.studentorder.sokutansupport.SoundReproductionActivity
+import com.sokutansupport.studentorder.sokutansupport.processing.returnChapterList
 import kotlinx.android.synthetic.main.fragment_list.*
 
 
@@ -32,13 +33,7 @@ class ListFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
 
-        val chapterList = ArrayList<String>()
-        for (i in 1..50) {
-            chapterList.add("Chapter$i 文章")
-            chapterList.add("Chapter$i 単語")
-            //これで文字列結合
-        }
-
+        val chapterList = returnChapterList(0)
 
         val arrayAdapter = ArrayAdapter<String>(activity, R.layout.list, chapterList)
         list.adapter = arrayAdapter

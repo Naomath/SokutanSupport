@@ -80,24 +80,27 @@
 
     <SeekBar
         android:id="@+id/seekBar"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
         android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/titleTextView" />
 
     <ImageButton
-        android:id="@+id/bt_play"
+        android:id="@+id/bt_operation"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
-        android:background="@color/clear"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/seekBar"
-        app:srcCompat="@drawable/baseline_play_arrow_white_48dp" />
+        android:background="@color/clear"/>
 
     <TextView
         android:id="@+id/textView4"
@@ -111,7 +114,7 @@
         android:textSize="30sp"
         app:fontFamily="sans-serif"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/bt_play" />
+        app:layout_constraintTop_toBottomOf="@+id/bt_operation" />
 
     <ListView
         android:id="@+id/listView"
