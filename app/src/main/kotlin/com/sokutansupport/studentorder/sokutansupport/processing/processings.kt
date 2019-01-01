@@ -1,5 +1,7 @@
 package com.sokutansupport.studentorder.sokutansupport.processing
 
+import com.sokutansupport.studentorder.sokutansupport.R
+
 fun returnChapterList(numberOfMedia: Int): ArrayList<String> {
     //numberOfMediaでは1がChapter1の文章
     //なので全部分を欲しければ、numberOfMediaに0を指定すればいい
@@ -43,4 +45,3 @@ fun returnChapterList(numberOfMedia: Int): ArrayList<String> {
 
     return chapterList
 }
-

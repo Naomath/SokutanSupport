@@ -10,6 +10,8 @@
 
     <string name="add_test">Add Test</string>
 
+    <string name="musicPath">sample_music</string>
+
 
 
 </resources>
