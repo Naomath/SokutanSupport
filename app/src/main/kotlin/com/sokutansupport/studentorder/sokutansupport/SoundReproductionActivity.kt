@@ -209,7 +209,7 @@ class SoundReproductionActivity : AppCompatActivity() {
         //TODO:コードとして汚そう　
 
         when(numberOfMedia){
-            1 -> return R.raw.track1
+            1 -> return R.raw.
             2 -> return R.raw.
                 3 -> return R.raw.
                 4 -> return R.raw.
@@ -313,6 +313,7 @@ class SoundReproductionActivity : AppCompatActivity() {
 
     }
     */
+
 
 
 
