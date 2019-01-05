@@ -12,7 +12,7 @@ import kotlinx.android.synthetic.main.activity_sound_reproduction.*
 
 
 class SoundReproductionActivity : AppCompatActivity() {
-
+    
     //TODO:それぞれのステージのまとめについても書く　
 
     var runnable: Runnable? = null
@@ -229,6 +229,7 @@ class SoundReproductionActivity : AppCompatActivity() {
         handler.postDelayed(runnable, 1000)
 
         //おそらく上の操作がないとこのplayCycleが流れる？
+
 
     }
 
